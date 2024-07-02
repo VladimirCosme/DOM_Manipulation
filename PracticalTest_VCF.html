@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <script>
+        // H1
+      const h1 = document.createElement('h1')
+      h1.setAttribute("id", "H1")
+      h1.textContent = "Practical Test Unit 2 - Vladimir Cosme"
+      document.body.append(h1);
+        //H3
+      const h3 = document.createElement('h3')
+      h3.setAttribute("id", "H3")
+      h3.textContent = "Hello!, Would like comment something about me"
+      document.body.append(h3);
+        //DIV
+      const div = document.createElement('div')
+      const p = document.createElement('p')
+      const input = document.createElement('input')
+      div.setAttribute("id","div")
+      p.textContent = "Leave a comment "
+      div.append(p);
+      div.append(input);
+      div.append(" ");
+      document.body.append(div);
+        //Ul
+      const nav = document.createElement('nav')
+      const ul = document.createElement('ul')
+      const li1 = document.createElement('li')
+      const li2 = document.createElement('li')
+      const li3 = document.createElement('li')
+      nav.setAttribute('id', 'nav')
+      ul.setAttribute('id', 'ul')
+      li1.append('Hobbies')
+      li2.append("School")
+      li3.append("Work")
+      nav.append(ul)
+      nav.append(li1)
+      nav.append(li2)
+      nav.append(li3)
+      document.body.append(nav);
+
+    </script>
+</body>
+</html>
